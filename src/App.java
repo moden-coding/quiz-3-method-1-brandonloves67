@@ -66,7 +66,7 @@ public class App {
      * You will MODIFY THIS ONE METHOD across tasks 1–4.
      * Do not create new methods.
      */
-    public static int computeArea(String mode, int length, int height) {
+    public static double computeArea(String mode, double length, double height) {
 
         if (length >= 100 || length < 0 || height >= 100 || height < 0) {
             return -1;
